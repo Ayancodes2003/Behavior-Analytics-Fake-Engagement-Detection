@@ -145,4 +145,6 @@ def simulate(
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Simulation error: {e}")
 
+    # Convert to JSON-serializable format
+    df["timestamp"] = df["timestamp"].astype(str)
     return JSONResponse(content=df.to_dict(orient="records"))
