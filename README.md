@@ -19,14 +19,7 @@ The system provides:
 - Synthetic Behaviour Simulation
 - Interactive Web Dashboard
 
----
 
-## Live Demo
-
-**Live App:** _[Add deployment link here]_  
-**API Endpoint:** _[Add API link here]_
-
----
 
 ## Problem Statement
 
